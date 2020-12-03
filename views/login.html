@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+</head>
+<body class="first-page">
+  <header>
+    <h1>Keeping You Connected</h1>
+  </header>
+    <div class="container">
+    <h2>Log In</h2>
+      <form action="/login" method="get">
+        <label for="email">EMAIL</label>
+        <input type="text" name="email" id="email">
+        <label for="password">PASSWORD</label>
+        <input type="password" name="password" id="password">
+        <button>LOG IN</button>
+      </form>
+    </div> 
+    <footer> 
+        <p>NEW HERE?</p>
+        <a href="/signup">SIGN UP</a>
+    </footer> 
+      <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-analytics.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+      <script src="./index.js"></script>
+</body>
+</html>

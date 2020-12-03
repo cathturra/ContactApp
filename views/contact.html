@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Add A Contact</h2>
+        <form action="/contact" onSubmit="addContact(event)" method="post" id="form-background">
+          <label for="firstName">FIRST NAME</label>
+          <input type="text" name="name" id="firstName">
+          <label for="lastName">LAST NAME</label>
+          <input type="text" name="name" id="lastName">
+          <label for="phone">PHONE NUMBER</label>
+          <input type="text" name="phone" id="phone">
+          <label for="address">ADDRESS</label>
+          <input type="text" name="address" id="address">
+          <button id="add">ADD</button>
+        </form>
+      </div>
+      <script src="./add_contact.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+</html>
